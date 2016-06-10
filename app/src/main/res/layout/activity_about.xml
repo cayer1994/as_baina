@@ -15,10 +15,24 @@ tools:context="com.example.baina.AboutActivity">
 
 
         >
-        <Button
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:background="@drawable/btn_close"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/btn_close"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="关于我们"
+                android:gravity="center"
+                android:textSize="22sp"
+                />
+        </LinearLayout>
+
       <LinearLayout
           android:layout_width="match_parent"
           android:layout_height="match_parent"
