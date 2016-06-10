@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddTrainActivity">
+        <activity android:name=".ActivityResult">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +20,11 @@
         <activity android:name=".StationActivity" />
         <activity android:name=".StationAndStationSelectActivity" />
         <activity android:name=".MethodActivity" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AddStationActivity" />
+        <activity android:name=".AddRelativeActivity" />
+        <activity android:name=".AddTrainActivity" />
+        <activity android:name=".ActivitySetting"></activity>
     </application>
 
 </manifest>
