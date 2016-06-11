@@ -164,7 +164,8 @@
             android:layout_weight="0.9"
             android:background="@drawable/btn_view"
             android:text="返回"
-            android:textSize="25sp"/>
+            android:textSize="25sp"
+            android:onClick="clickBack"/>
 
     </LinearLayout>
 

@@ -8,23 +8,36 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ActivityResult">
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AboutActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
         <activity android:name=".TidSelectActivity" />
         <activity android:name=".StationActivity" />
         <activity android:name=".StationAndStationSelectActivity" />
-        <activity android:name=".MethodActivity" />
-        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MethodActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
         <activity android:name=".AddStationActivity" />
+        <activity
+            android:name=".ActivityResult"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
         <activity android:name=".AddRelativeActivity" />
         <activity android:name=".AddTrainActivity" />
-        <activity android:name=".ActivitySetting"></activity>
+        <activity android:name=".ActivitySetting" />
+        <activity android:name=".CalenderActivity"></activity>
     </application>
 
 </manifest>

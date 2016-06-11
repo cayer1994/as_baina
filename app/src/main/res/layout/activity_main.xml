@@ -31,13 +31,15 @@
                 android:layout_height="match_parent"
                 android:layout_weight="0.9"
                 android:background="@drawable/btn_view"
-                android:text="车次查询"/>
+                android:text="车次查询"
+                android:onClick="clickTid"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btn_view"
                 android:layout_weight="0.9"
-                android:text="车站查询"/>
+                android:text="车站查询"
+                android:onClick="clickStation"/>
         </LinearLayout>
 
         <LinearLayout
@@ -52,13 +54,15 @@
                 android:layout_height="match_parent"
                 android:layout_weight="0.9"
                 android:text="站站查询"
-                android:background="@drawable/btn_view"/>
+                android:background="@drawable/btn_view"
+                android:onClick="clickSAS"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btn_view"
                 android:layout_weight="0.9"
-                android:text="附加功能"/>
+                android:text="附加功能"
+                android:onClick="clickMethod"/>
 
         </LinearLayout>
 
@@ -80,6 +84,7 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/btn_view"
                 android:layout_weight="0.9"
+                android:onClick="clickSetting"
                 android:text="设置"/>
         </LinearLayout>
         <LinearLayout
